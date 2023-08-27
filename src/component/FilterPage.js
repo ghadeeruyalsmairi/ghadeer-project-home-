@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Paper, Typography, TextField, FormControlLabel, Radio, RadioGroup, Button } from '@mui/material';
-import { makeStyles } from '@mui/styles';
+import { makeStyles } from '@mui/material/styles';
 
 const useStyles = makeStyles((theme) => ({
   container: {
