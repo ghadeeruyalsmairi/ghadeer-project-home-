@@ -1,0 +1,71 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.form {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+}
+
+
+
+.form h1 {
+  color: #FF664B;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.ui.divider {
+  margin: 20px 0;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.ii {
+  width:90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.p {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox-container label {
+  font-size: 14px;
+}
+
+.fluid.ui.button.blue {
+  background-color: #FF664B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.fluid.ui.button.blue:hover {
+  background-color: #FF664B;
+}

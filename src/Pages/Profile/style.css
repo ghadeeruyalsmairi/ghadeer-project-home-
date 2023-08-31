@@ -1,0 +1,70 @@
+/* UserProfilePage.css */
+
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.profile-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detail label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.detail input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.actions {
+  margin-left: 20px;
+}
+
+.edit-button,
+.save-button {
+  background-color: #1D5D9B;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.edit-button:hover,
+.save-button:hover {
+  background-color: #1A4D7E;
+}

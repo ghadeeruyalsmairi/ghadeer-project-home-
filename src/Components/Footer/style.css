@@ -1,0 +1,50 @@
+.footer {
+    background-color: #0F1734; 
+    color: white;
+    padding: 50px;
+    margin-top: 20px;
+  }
+  
+  .footer-heading {
+    color: #FFF;
+    font-family:'NunitoSans';
+    font-size: 15px;
+    font-style: bold;
+    font-weight: 400;
+    line-height:1rem ;
+    margin-bottom: 10px;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-list li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-list a {
+    color:#FFFFFF; 
+    text-decoration: none;
+  }
+  
+  .footer-list a:hover {
+    text-decoration: underline; 
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons svg {
+    color: #FFFFFF; 
+  
+  }
+ 
+  
+  
+  
+  
+  

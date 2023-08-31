@@ -1,0 +1,48 @@
+
+.my-houses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+table {
+  width: 80%;
+  max-width: 800px;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #FF5A3D;
+  color: white;
+}
+
+.house-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.material-icons {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 5px;
+}
+
+.edit-icon {
+  color: #FF5A3D;
+}
+
+.delete-icon {
+  color: #ff0000;
+}
