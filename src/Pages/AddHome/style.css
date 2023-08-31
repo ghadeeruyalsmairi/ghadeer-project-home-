@@ -1,0 +1,55 @@
+
+.add-home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.home-form {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+
+.home-form h1 {
+  color: #FF664B;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.home-form h2 {
+  color: #FF664B;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+.input-group input,
+.input-group textarea {
+  width:90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-button {
+  background-color: #FF664B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-button:hover {
+  background-color: #FF664B;
+}
